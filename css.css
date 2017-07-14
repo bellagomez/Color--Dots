@@ -1,3 +1,46 @@
 body {
-    background: aquamarine;
+    background-image:url("images/purple.jpeg");
+    background-size:100% 100%;
+    height:100vh;
+    display: flex;
+    flex-wrap:wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
 }
+div {
+    height: 150px;
+    width: 150px;
+    border: 4px dashed lightcoral;
+    background: lightblue;
+    border-radius: 100%;
+}
+
+div#green {
+background: lemonchiffon;
+border: dashed 6px yellow;
+}
+
+
+div#red {
+background: lightgreen;
+border:dotted 6px green;
+}
+
+
+div#blue {
+background: plum;
+border: solid 6px rebeccapurple;
+}
+div#gray {
+    background: gray;
+    border: dotted 6px black;
+}
+
+
+
+
+
+
+
+
