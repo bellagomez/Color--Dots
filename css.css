@@ -11,8 +11,8 @@ body {
 div {
     height: 150px;
     width: 150px;
-    border: 4px dashed lightcoral;
-    background: lightblue;
+    border: 6px solid black;
+    background: gray;
     border-radius: 100%;
 }
 
