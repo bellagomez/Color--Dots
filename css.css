@@ -19,23 +19,33 @@ div {
 div#green {
 background: lemonchiffon;
 border: dashed 6px yellow;
-}
+} 
 
 
-div#red {
-background: lightgreen;
-border:dotted 6px green;
-}
+
 
 
 div#blue {
 background: plum;
 border: solid 6px rebeccapurple;
 }
-div#gray {
-    background: gray;
-    border: dotted 6px black;
+div#red {
+    background:red;
+border:dotted 6px darkred;
 }
+
+#red{
+    position:absolute;
+    border-radius: 100%;
+    color:aqua;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+    
+
+
 
 
 
